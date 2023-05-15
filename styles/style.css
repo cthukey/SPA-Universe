@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../complemento/mountains-universe-1.png');
+    background-position: 100% 21%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    font-size: 1.6rem;
+}
+nav{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.6667px;
+    line-height: 22px;
+
+    display: flex;
+    place-items: center;
+    padding: 4.0rem 7.2rem;
+
+
+    gap: 3.2rem;
+}
+nav a{
+    text-decoration: none;
+    color: #C4C4CC;
+} 
+nav a:hover{
+    color: white;
+    font-weight: 700;
+}
+
+/* MAIN */
+
+main{
+    display: grid;
+    place-items: center;
+    margin-top: 16.2rem;
+    gap: 2.0rem;
+}
+main span{
+    color: #E1E1E6;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+}

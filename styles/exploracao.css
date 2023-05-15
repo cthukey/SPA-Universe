@@ -1,0 +1,31 @@
+body{    
+    text-align: justify;
+    background-image: url('../complemento/mountains-universe-3.png');
+    background-position: 100% 21%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.h1{
+    position: absolute;
+    top: 185px;
+    left: 102px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+}
+
+.p{
+    position: absolute;
+    left: 102px;
+    top:261px;
+
+    color: #E1E1E6;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+}
